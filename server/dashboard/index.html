@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Splash Ink - Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Lexend+Deca&display=swap">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="app">
+            <div class="row">
+                <span class="title">Splash Ink Dashboard</span>
+            </div>
+            <div class="office">
+                <div class="row">
+                    <span>Loading...</span>
+                </div>
+            </div>
+            <div class="elevator">
+                <div class="row">
+                    <div class="map-select">
+                        <span>Towerrific</span>
+                        <span>Farmilicious</span>
+                    </div>
+                </div>
+                <div class="row">
+                        <span class="players">0/12 players</span>
+                        <span class="outside">(0 in office)</span>
+                </div>
+                <div class="row">
+                    <span class="countdown">00:00</span>
+                </div>
+                <div class="row">
+                    <button class="start">Start Now</button>
+                </div>
+            </div>
+            <div class="game">
+                <div class="row progress">
+                    <div class="cow"></div>
+                    <div class="bars"><div></div></div>
+                    <div class="pug"></div>
+                </div>
+                <div class="row">
+                    <span class="countdown">00:00</span>
+                </div>
+                <div class="row">
+                    <input class="broadcast" placeholder="Broadcast Message...">
+                </div>
+                <div class="row">
+                    <button class="end">End Now</button>
+                </div>
+            </div>
+        </div>
+        <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
