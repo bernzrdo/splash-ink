@@ -400,7 +400,7 @@ function dynamicVoiceChannelSystem(ws){
     ws.data.discord.voice.setChannel(vc);
 }
 
-bot.login('ODEwODAzNDAwMzE2NDIwMTE2.YCo9gg.Bkx5f8Lw9e2T9cDPlbW7EBhH3Fg');
+bot.login(discordBotToken);
 
 // ---------- DASHBOARD ----------
 
