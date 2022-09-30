@@ -1,4 +1,4 @@
-# splash-ink
+# Splash Ink
 
 No âmbito da Prova de Aptidão Profissional (PAP) do Curso Técnico de Gestão e Programação de Sistemas Informáticos (TGPSI) escolhemos desenvolver um videojogo multijogador online, inspirado pelo desporto paintball e pelo videojogo Splatoon, intitulado de “Splash Ink”. Dois dos fatores para a escolha deste tema foram: o interesse de Pedro Ferreira por paintball e o desafio de criar um videojogo online.
 
